@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TimerWheel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">45dip</item>
+    </style>
+
+    <style name="Separator">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="TimerButton" parent="android:Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/btn_default</item>
+    </style>
+
+    <style name="TimerButton.Top">
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignBottom">@+id/separator</item>
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+
+    <style name="TimerButton.Bottom">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignTop">@+id/separator</item>
+        <item name="android:paddingTop">15dp</item>
+    </style>
+
+</resources>

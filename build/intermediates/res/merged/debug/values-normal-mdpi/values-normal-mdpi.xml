@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Administrator/Desktop/work/CircleImageView-master/mainActivity/src/main/res/values-normal-mdpi/values.xml -->
+    <eat-comment/>
+    <item format="float" name="wheel_text_size_ratio" type="dimen">0.5</item>
+</resources>

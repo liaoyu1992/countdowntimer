@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@android:id/content"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:gravity="center"
+              android:background="#8da186">
+
+    <antistatic.spinnerwheel.WheelVerticalView
+            android:id="@+id/ten_days"
+            style="@style/TimerWheel"
+            />
+    <antistatic.spinnerwheel.WheelVerticalView
+            android:id="@+id/days"
+            style="@style/TimerWheel"
+            android:layout_toRightOf="@+id/ten_days"
+            />
+    
+    
+    <antistatic.spinnerwheel.WheelVerticalView
+            android:id="@+id/ten_hours"
+            android:layout_marginLeft="10dip"
+            style="@style/TimerWheel"
+            android:layout_toRightOf="@+id/days"
+            />
+    <antistatic.spinnerwheel.WheelVerticalView
+            android:id="@+id/hours"
+            style="@style/TimerWheel"
+            android:layout_toRightOf="@+id/ten_hours"
+            />
+    <antistatic.spinnerwheel.WheelVerticalView
+            android:id="@+id/ten_mins"
+            style="@style/TimerWheel"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@+id/hours"
+            />
+    <antistatic.spinnerwheel.WheelVerticalView
+            android:id="@+id/mins"
+            style="@style/TimerWheel"
+            android:layout_toRightOf="@+id/ten_mins"
+            />
+    <antistatic.spinnerwheel.WheelVerticalView
+            android:id="@+id/ten_secs"
+            style="@style/TimerWheel"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@+id/mins"
+            />
+    <antistatic.spinnerwheel.WheelVerticalView
+            android:id="@+id/secs"
+            style="@style/TimerWheel"
+            android:layout_toRightOf="@+id/ten_secs"
+            />
+
+</RelativeLayout>
+
